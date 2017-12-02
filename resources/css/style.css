@@ -1,0 +1,79 @@
+/*Universal Style*/
+html{
+  font-size: 16px;
+}
+
+body{
+  font-family: "Muli", sans-serif;
+}
+
+.main-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 480px;
+}
+
+/*Header*/
+header{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 4rem;
+  background-color: #D32F2F;
+}
+
+.nav-bar{
+  width: 1600px;
+  display: flex;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  flex-grow: 2;
+}
+
+.logo img{
+  height: 2.75rem;
+  padding-top: 0.2rem;
+  padding-left: 1.5rem;
+  padding-right: 0.5rem;
+  color: #FFFFFF;
+}
+
+.logotype{
+  font-size: 1.85rem;
+  color: #FFFFFF;
+}
+
+.wt700{
+  font-weight: 700;
+}
+
+.wt300{
+  font-weight: 300;
+}
+
+.full{
+  display: flex;
+  align-items: center;
+  padding-right: 0.75rem;
+}
+
+.full-nav{
+  display: inline-flex;
+}
+
+.full-nav li{
+  color: #FFFFFF;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.mobile{
+  display: none;
+  align-items: center;
+  flex-grow: 3;
+  padding-right: 0.75rem;
+}
