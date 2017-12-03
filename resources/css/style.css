@@ -77,3 +77,29 @@ header{
   flex-grow: 3;
   padding-right: 0.75rem;
 }
+
+.mobile-nav{
+  display: none;
+}
+
+.icon{
+  height: 30px;
+  display: block;
+}
+
+/*Header in Mobile View*/
+
+@media only screen and (max-width: 850px) {
+  .mobile{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+  }
+
+  .mobile-nav{
+    display: inline-flex;
+    flex-grow: 3;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
