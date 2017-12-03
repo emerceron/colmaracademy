@@ -143,14 +143,100 @@ header{
   font-family: Helvetica, sans-serif;
   }
 
-  .button{
-    background-color: #9E9E9E;
-    color: #212121;
-    padding: 8px 0;
-    text-align: center;
-  }
+.button{
+  background-color: #9E9E9E;
+  color: #212121;
+  padding: 8px 0;
+  text-align: center;
+}
 
-  .button span{
-    font-size: 16px;
-    font-weight: bold;
-  }
+.button span{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/*Campus Info*/
+.information{
+  display: flex;
+}
+
+.information-main{
+  width: 60%;
+}
+
+.information-main-container{
+  padding: 2rem 1.5rem;
+}
+
+.information-main-container img{
+  width: 100%;
+  height: auto;
+}
+
+.information-main-container h1{
+  font-size: 2rem;
+  font-weight: 700;
+  padding-top: 32px;
+  padding-bottom: 24px;
+}
+
+.information-main-container p{
+  font-family: "Helvetica", sans-serif;
+  padding-bottom: 32px;
+}
+
+.information-main-container span{
+  font-size: 0.75rem;
+  padding-bottom: 32px;
+}
+
+.information-secondary{
+  width: 40%;
+  flex-wrap: wrap;
+  align-content: space-between;
+  padding: 1rem 0rem 1rem 0rem;
+}
+
+.information-item:last-child{
+  background-color: #9E9E9E;
+}
+
+.information-item-container{
+  display: flex;
+  padding: 16px;
+}
+
+.information-item-container img{
+  width: 35%;
+  height: auto;
+}
+
+.image-mobile{
+  display: none;
+}
+
+.information-content{
+  width: 65%;
+}
+
+.information-content-container{
+  height: 100%;
+  display: flex;
+  align-self: center;
+  padding-left: 20px;
+}
+
+.information-content-container h2{
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 8px 0px;
+}
+
+.information-content-container p{
+  font-size: 1rem;
+  padding: 8px 0px;
+}
+
+.information-content-container a{
+  text-decoration: none;
+}
