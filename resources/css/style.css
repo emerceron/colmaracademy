@@ -155,6 +155,31 @@ header{
   font-weight: bold;
 }
 
+/*Banner in Mobile view*/
+@media only screen and (max-width: 850px){
+
+  .banner-container{
+    flex-direction: column;
+  }
+
+  .banner-image{
+    width: 100%;
+  }
+
+  .banner-image-container img{
+    width: 100%;
+    height: auto;
+  }
+
+  .banner-content{
+    padding: 2rem 1rem 2rem 1rem;
+  }
+
+  .button{
+    width: 60%;
+  }
+}
+
 /*Campus Info*/
 .information{
   display: flex;
@@ -194,11 +219,16 @@ header{
   width: 40%;
   flex-wrap: wrap;
   align-content: space-between;
-  padding: 1rem 0rem 1rem 0rem;
+  padding: 1rem 0rem;
+  border-bottom: 1px solid #BDBDBD;
 }
 
 .information-item:last-child{
   background-color: #9E9E9E;
+}
+
+.information-item{
+  border-bottom: 1px solid #BDBDBD;
 }
 
 .information-item-container{
@@ -217,11 +247,11 @@ header{
 
 .information-content{
   width: 65%;
+  display: flex;
 }
 
 .information-content-container{
   height: 100%;
-  display: flex;
   align-self: center;
   padding-left: 20px;
 }
@@ -235,8 +265,54 @@ header{
 .information-content-container p{
   font-size: 1rem;
   padding: 8px 0px;
+  line-height: 1.4;
 }
 
 .information-content-container a{
   text-decoration: none;
+}
+
+/*Campus Information in Mobile View*/
+
+@media only screen and (max-width: 850px){
+  .information-main{
+    display: none;
+  }
+
+  .information-secondary{
+    display: flex;
+    width: 100%;
+  }
+
+  .information-item-container{
+    flex-direction: column;
+  }
+
+  .image-desktop{
+    display: none;
+  }
+
+  .image-mobile{
+    display: block;
+    width: 100%;
+    padding-left: 1rem;
+  }
+
+  .information-item-container img{
+    width: 100%;
+  }
+
+  .information-content{
+    width: 100%;
+}
+  .information-content-container{
+    padding: 1rem 0 1rem 1rem;
+  }
+}
+
+/*Course section*/
+.courses{
+  background-color: #FFCDD2;
+  padding: 32px 56px;
+  display: flex;
 }
