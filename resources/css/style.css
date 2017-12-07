@@ -145,14 +145,20 @@ header{
 
 .button{
   background-color: #9E9E9E;
-  color: #212121;
   padding: 8px 0;
   text-align: center;
 }
 
-.button span{
+.button a:hover{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.button a{
   font-size: 16px;
   font-weight: bold;
+  text-decoration: none;
+  color: #212121;
 }
 
 /*Banner in Mobile view*/
@@ -337,4 +343,60 @@ header{
 
 .course{
   justify-content: space-between;
+}
+
+/*Course section in Mobile view*/
+
+/*Thesis section*/
+.thesis{
+  display: flex;
+  width: 100%;
+}
+
+.thesis-video video{
+  width: 60%
+}
+
+/*Footer*/
+footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #D32F2F;
+  width: 100%;
+  height: auto;
+  padding: 1rem 1rem 2rem 1.5rem;
+}
+
+.colmar{
+  font-weight: 700;
+}
+
+.copyright{
+  text-align: left;
+}
+
+.terms{
+  text-align: right;
+}
+
+.terms a{
+  padding: 0.50rem;
+  text-decoration: none;
+  color: black;
+}
+
+.terms a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 850px) {
+  footer{
+    height: 1.5rem;
+  }
+
+  .terms{
+    display: none;
+    padding-top: 2rem;
+  }
 }
