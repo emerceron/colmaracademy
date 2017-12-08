@@ -351,10 +351,39 @@ header{
 .thesis{
   display: flex;
   width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1rem;
 }
 
+.thesis h1{
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 2rem 0 2rem 0;
+}
+
+.main-thesis{
+  display: flex;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  flex-direction: column;
+  }
+
 .thesis-video video{
-  width: 60%
+  width: 60%;
+  height: auto;
+}
+
+.thesis-video h2{
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding-top: 1.5rem;
+}
+
+.secondary-thesis{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /*Footer*/
