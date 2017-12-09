@@ -18,14 +18,16 @@ body{
 header{
   display: flex;
   justify-content: center;
+  position: fixed;
+  z-index: 1;
   width: 100%;
   height: 4rem;
   background-color: #D32F2F;
 }
 
 .nav-bar{
-  width: 1600px;
   display: flex;
+  width: 100%;
 }
 
 .logo{
@@ -65,10 +67,16 @@ header{
   display: inline-flex;
 }
 
-.full-nav li{
+.full-nav a{
   color: #FFFFFF;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+  text-decoration: none;
+}
+
+.full-nav a:hover{
+  color: #aeaeae;
+  font-weight: 700;
 }
 
 .mobile{
@@ -102,6 +110,14 @@ header{
     justify-content: space-around;
     align-items: center;
   }
+
+  .full{
+    display: none;
+  }
+
+  .logotype{
+    display: none;
+  }
 }
 
 /*Banner*/
@@ -109,6 +125,7 @@ header{
   display: flex;
   background-color: #FFCDD2;
   width: 100%;
+  padding-top: 3.75rem;
 }
 
 .banner-image{
