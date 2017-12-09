@@ -425,7 +425,8 @@ header{
 .thesis h1{
   font-size: 2.5rem;
   font-weight: 700;
-  padding: 2rem 0 2rem 0;
+  padding: 2rem 0;
+  text-align: center;
 }
 
 .main-thesis{
@@ -451,6 +452,9 @@ header{
   flex-wrap: wrap;
   justify-content: center;
 }
+
+/*Thesis section in Mobile*/
+
 
 /*Footer*/
 footer{
